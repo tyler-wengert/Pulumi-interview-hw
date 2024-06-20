@@ -1,0 +1,7 @@
+config:
+  azure-native:location: WestUS
+  pulumi-hw1-container:appPath: app
+  pulumi-hw1-container:containerPort: "80"
+  pulumi-hw1-container:cpu: "1"
+  pulumi-hw1-container:memory: "2"
+  pulumi-hw1-container:msg: I am pretty good at this!

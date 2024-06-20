@@ -1,0 +1,10 @@
+name: pulumi-hw1-container
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Container application serving website with configurable output  variable
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: container-azure-python
